@@ -33,7 +33,7 @@ int main()
     printf("entre com a qtd de setores:");
     scanf("%d",&p);
     
-    setor=(float*) malloc(p*2*sizeof(float));
+    setor=(float*) malloc(p*2*sizeof(float));// o 2 esta fixo pq sao 2 colunas , senao seria n colunas
     if(setor == NULL)
     {
              printf("memoria insuficiente!");
