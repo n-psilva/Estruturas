@@ -9,7 +9,7 @@ void ordena(int p, float *setor)
      {
            f=f-1;
            troca=0;
-           for(i=0;i<f;i++)
+           for(i=0;i<=f;i++)
            {
                if(setor[i*2+0] > setor[(i+1)*2+0])
                {
